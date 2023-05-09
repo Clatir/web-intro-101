@@ -40,6 +40,7 @@ main {
 main p, main h2
 {
   text-align: center;
+  color: black;
 }
 
 h2 {
