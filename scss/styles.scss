@@ -1,0 +1,129 @@
+body {
+
+  font-family: Arial, sans-serif;
+  background-color: #F9F6F0;
+
+  color: #333;
+  font-size: 13px;
+  margin: 0;
+  padding: 0;
+
+
+
+}
+
+header {
+
+
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+
+  h1 {
+    a {
+      color: white;
+      text-decoration: none;
+    }
+  }
+
+}
+
+nav {
+  background-color: #ccc;
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+
+  a:hover {
+    color: #E52B50;
+  }
+
+  a {
+    color: #333;
+    text-decoration: none;
+    font-size: 1.1rem;
+  }
+
+
+
+
+
+
+}
+nav a:hover {
+  transform: scale(1.1);
+}
+main {
+  padding: 2rem;
+
+
+  p, h2 {
+    text-align: center;
+    color: black;
+  }
+  .image-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .mainImg {
+    height: 50vh;
+    width: 40vw;
+    max-height: 50%;
+    max-width: 100%;
+    display: block;
+
+    margin-bottom: 2rem;
+  }
+
+
+  img[alt*="Opis obrazka"]:hover {
+    border: 3px solid #333;
+  }
+  a[href*="podstrona"]:hover {
+    background-color: #E52B50;
+  }
+
+
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+
+p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  text-align: justify;
+}
+
+.button {
+  display: inline-block;
+  background-color: #333;
+  color: white;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 4.3rem;
+
+   p {
+    font-style: italic;
+  }
+
+}
+@media (max-width: 500px) {
+  nav {
+    flex-direction: column;
+  }
+}
+
+

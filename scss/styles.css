@@ -1,0 +1,102 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #F9F6F0;
+  color: #333;
+  font-size: 13px;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+header h1 a {
+  color: white;
+  text-decoration: none;
+}
+
+nav {
+  background-color: #ccc;
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+}
+nav a:hover {
+  color: #E52B50;
+}
+nav a {
+  color: #333;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+nav a:hover {
+  transform: scale(1.1);
+}
+
+main {
+  padding: 2rem;
+}
+main p, main h2 {
+  text-align: center;
+  color: black;
+}
+main .image-container {
+  display: flex;
+  justify-content: space-between;
+}
+main .mainImg {
+  height: 50vh;
+  width: 40vw;
+  max-height: 50%;
+  max-width: 100%;
+  display: block;
+  margin-bottom: 2rem;
+}
+main img[alt*="Opis obrazka"]:hover {
+  border: 3px solid #333;
+}
+main a[href*=podstrona]:hover {
+  background-color: #E52B50;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  text-align: justify;
+}
+
+.button {
+  display: inline-block;
+  background-color: #333;
+  color: white;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 4.3rem;
+}
+footer p {
+  font-style: italic;
+}
+
+@media (max-width: 500px) {
+  nav {
+    flex-direction: column;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
